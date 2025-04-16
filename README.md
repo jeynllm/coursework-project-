@@ -8,7 +8,7 @@ Student who worked on the project- Berdibekova Zhasmina EEAIR24.
 
 
 
-
+-------------------------------
 
 # Overview
 
@@ -17,7 +17,7 @@ The **Feedback Submission System** project is for collecting and managing feedba
 The system supports full CRUD operations—allowing feedback to be created, viewed, edited, and deleted. It also includes input validation to ensure the accuracy of user input (such as valid email formatting and numeric ratings between 1 and 5). 
 
 
-
+-----------------------------------------
 
 # Objectives
 
@@ -33,63 +33,63 @@ The system supports full CRUD operations—allowing feedback to be created, view
 
 
 
-
+-----------------------------------
 
 # Features and Requirements
 
-1.CRUD Operations: Create, Read, Update, and Delete feedback records.
+1.**CRUD Operations:** Create, Read, Update, and Delete feedback records.
 
-2.User-Friendly CLI(Java-based Command-Line Interface): Menu-driven interface with clear prompts.
+2.**User-Friendly CLI(Java-based Command-Line Interface):** Menu-driven interface with clear prompts.
 
-3.Input Validation: Validate email format, rating (1–5), and prevent empty inputs.
+3.**Input Validation:** Validate email format, rating (1–5), and prevent empty inputs.
 
-4.Data Persistence: Store feedback in a CSV file to retain data.
+4.**Data Persistence:** Store feedback in a CSV file to retain data.
 
-5.Modular Design: Separate methods for each operation (submit, view, update, delete).
+5.**Modular Design:** Separate methods for each operation (submit, view, update, delete).
 
-6.Error Handling: Graceful handling of invalid inputs or file errors.
+6.**Error Handling:** Graceful handling of invalid inputs or file errors.
 
-7.Unique IDs: Automatically generated IDs that increment starting from 1.
+7.**Unique IDs:** Automatically generated IDs that increment starting from 1.
 
-8.Report Generation: Displays total feedbacks and rating distribution.
+8.**Report Generation:** Displays total feedbacks and rating distribution.
 
-9.CSV I/O: Feedback records are read from and written to a CSV file.
+9.**CSV I/O:** Feedback records are read from and written to a CSV file.
 
-10.Documentation: Includes a README file and in-code comments.
+10.**Documentation:** Includes a README file and in-code comments.
 
 
-
+-------------------------------------------
 
 
 # Functions and Methods
 
-1.submitFeedback()
+1.**submitFeedback()**
 
 Prompts the user for name, email, comment, and rating. Validates inputs and saves to list and file.
 
-2.viewFeedback()
+2.**viewFeedback()**
 
 Displays all submitted feedbacks with full details.
 
-3.updateFeedback()
+3.**updateFeedback()**
 
 Updates feedback fields by ID after checking for valid input.
 
-4.deleteFeedback()
+4.**deleteFeedback()**
 
 Removes a feedback entry by its ID and updates the CSV file.
 
-5.generateReport()
+5.**generateReport()**
 
 Prints total feedback count and frequency of each rating.
 
-6.exitApp()
+6.**exitApp()**
 
 Exits the application and logs the activity.
 
 
 
-
+-------------------------------------------
 
 # Algorithms and Data Structures
 
@@ -113,6 +113,8 @@ Input validation is done using regular expressions (for email) and string matchi
 
 The program determines the maximum existing ID in the feedback list and sets nextId to maxId + 1, ensuring all new feedback entries get a unique incremental ID starting from 1.
 
+---------------------------------
+
 
 # Challenges Faced
 
@@ -123,18 +125,26 @@ The program determines the maximum existing ID in the feedback list and sets nex
 3.Parsing and storing structured data from CSV correctly.
 
 
+
+
+-------------------------------------------------------
+
 # Outputs and test cases
 
 ** Input:**
+
 
 Name: Aidar
 Email: aidar@example.com
 Comment: Loved the acting and storyline!
 Rating: 5
 
+
 **Expected Output:**
 ✅ Feedback submitted successfully!
 
+
+--------------------------------------
 
 **➔ Test Case 2: View All Feedback**
 **Expected Output:**
@@ -145,10 +155,14 @@ Email: adilet@example.com
 Comment: Loved the acting and storyline!
 Rating: 5
 
+---------------------------------------
+
 **➔ Test Case 3: Invalid Email Input**
+
 
 **Input:**
 Email: kimminexample.com
+
 
 **Expected Output:**
 ⚠ Invalid email format. Try again.
@@ -171,13 +185,13 @@ Email: kimminexample.com
 
 
 
-
+--------------------------------------------------
 # Output File
 
 The application creates and maintains a **feedback.csv** file containing all user feedback data in comma-separated format.
 
 
-
+--------------------------------------
 # Presentation
 
 
