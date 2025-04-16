@@ -37,25 +37,25 @@ The system supports full CRUD operations—allowing feedback to be created, view
 
 # Features and Requirements
 
-1.**CRUD Operations:** Create, Read, Update, and Delete feedback records.
+1.**CRUD Operations:**   Create, Read, Update, and Delete feedback records.
 
-2.**User-Friendly CLI(Java-based Command-Line Interface):** Menu-driven interface with clear prompts.
+2.**User-Friendly CLI(Java-based Command-Line Interface):**   Menu-driven interface with clear prompts.
 
-3.**Input Validation:** Validate email format, rating (1–5), and prevent empty inputs.
+3.**Input Validation:**   Validate email format, rating (1–5), and prevent empty inputs.
 
-4.**Data Persistence:** Store feedback in a CSV file to retain data.
+4.**Data Persistence:**   Store feedback in a CSV file to retain data.
 
-5.**Modular Design:** Separate methods for each operation (submit, view, update, delete).
+5.**Modular Design:**   Separate methods for each operation (submit, view, update, delete).
 
-6.**Error Handling:** Graceful handling of invalid inputs or file errors.
+6.**Error Handling:**   Graceful handling of invalid inputs or file errors.
 
-7.**Unique IDs:** Automatically generated IDs that increment starting from 1.
+7.**Unique IDs:**   Automatically generated IDs that increment starting from 1.
 
-8.**Report Generation:** Displays total feedbacks and rating distribution.
+8.**Report Generation:**   Displays total feedbacks and rating distribution.
 
-9.**CSV I/O:** Feedback records are read from and written to a CSV file.
+9.**CSV I/O:**   Feedback records are read from and written to a CSV file.
 
-10.**Documentation:** Includes a README file and in-code comments.
+10.**Documentation:**   Includes a README file and in-code comments.
 
 
 -------------------------------------------
@@ -166,6 +166,9 @@ Email: kimminexample.com
 
 **Expected Output:**
 ⚠ Invalid email format. Try again.
+
+
+
 
 ![image](https://github.com/user-attachments/assets/f5a778a8-9c92-4fdc-9b2a-b90494084d0f)
 
