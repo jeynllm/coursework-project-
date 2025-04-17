@@ -200,9 +200,6 @@ Email: kimminexample.com
 The application creates and maintains a **feedback.csv** file containing all user feedback data in comma-separated format.
 
 
---------------------------------------
-# Presentation
-
 
 
 
