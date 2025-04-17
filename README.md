@@ -10,6 +10,8 @@ Student who worked on the project- Berdibekova Zhasmina EEAIR24.
 
 # Presentation
 
+https://www.canva.com/design/DAGk4E6G3V0/R4OpnyybpIiGKI_127Zxxg/edit?utm_content=DAGk4E6G3V0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 
 
